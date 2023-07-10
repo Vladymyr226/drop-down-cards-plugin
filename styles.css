@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   overflow: hidden;
   margin: 0;
   background: rgba(69, 12, 201, 0.267);
@@ -15,12 +15,12 @@ body {
   align-items: center;
 }
 
-.container{
+.container {
   width: 100%;
   display: flex;
   padding: 0 20px;
 }
-.slide{
+.slide {
   height: 80vh;
   border-radius: 20px;
   /* Отсупы между слайдами */
@@ -35,7 +35,7 @@ body {
   transition: all 500ms ease-in-out;
 }
 
-.slide h3{
+.slide h3 {
   position: absolute;
   font-size: 24px;
   bottom: 20px;
@@ -44,10 +44,10 @@ body {
   opacity: 0;
 }
 
-.slide.active{
+.slide.active {
   flex: 10;
 }
-.slide.active h3{
+.slide.active h3 {
   /* Если наша карточка активна - показывать надпись на каточке */
   opacity: 1;
   /* opacity - свойство, которое мы анимируем
